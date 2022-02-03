@@ -1,0 +1,15 @@
+name = "gleam_shell_experiment"
+version = "0.1.0"
+
+licences = ["Apache-2.0"]
+description = "An experimental Gleam shell for the Erlang target"
+repository = { type = "github", user = "tynanbe", repo = "gleam_shell_experiment" }
+links = [{ title = "Website", href = "https://gleam.run/" }]
+
+[dependencies]
+gleam_erlang = "~> 0.9"
+gleam_otp = "~> 0.3"
+gleam_stdlib = "~> 0.19"
+
+[dev-dependencies]
+gleeunit = "~> 0.6"
