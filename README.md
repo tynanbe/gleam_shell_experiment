@@ -13,5 +13,16 @@ gleam shell # Run an Erlang shell
 > git clone https://github.com/tynanbe/gleam_shell_experiment.git
 > cd gleam_shell_experiment
 > gleam build
-> ESCRIPT_NAME="gleam shell" erl -pa "build/dev/erlang/gleam_shell_experiment/ebin" "build/dev/erlang/gleam_otp/ebin" "build/dev/erlang/gleam_erlang/ebin" "build/dev/erlang/gleam_stdlib/ebin" "." -stdlib shell_strings false -noshell -noinput -s gleam_shell_boot
+> ESCRIPT_NAME="gleam shell" \
+  erl \
+    -pa \
+      "build/dev/erlang/gleam_shell_experiment/ebin" \
+      "build/dev/erlang/gleam_otp/ebin" \
+      "build/dev/erlang/gleam_erlang/ebin" \
+      "build/dev/erlang/gleam_stdlib/ebin" \
+      "." \
+    -stdlib shell_strings false \
+    -noshell \
+    -noinput \
+    -s gleam_shell_boot
 ```
