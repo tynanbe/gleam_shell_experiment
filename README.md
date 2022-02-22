@@ -1,4 +1,4 @@
-# gleam_shell_experiment
+# gleam_shell_experiment 🧪
 
 A Gleam project exploring one method of creating a shell, or REPL, for Gleam's Erlang target.
 
